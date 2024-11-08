@@ -101,5 +101,6 @@ himno_nacional = {
                     "Deber antes que vida", 
                     Con llamas escribió.'''
 }
-print(himno_nacional[1])
+print(himno_nacional.get('estrofa 10'))
+print(len(himno_nacional.keys()))
 
