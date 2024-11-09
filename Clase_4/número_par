@@ -1,0 +1,5 @@
+número= input('ingrese número:')
+print('ingresaste el numero:',número)
+if int(número) % 2 == 0: print('el número es par')
+else: print('el número es impar')
+    

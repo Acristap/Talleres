@@ -1,0 +1,7 @@
+genero= input('ingrese genero m/f:')
+print('ingresaste genero:',genero)
+edad= input('ingrese edad:')
+print('ingresaste edad',edad)
+if genero == 'm' and int(edad)>=62: print('puede jubilarse')
+elif genero == 'f' and int(edad)>=57: print('puede jubilarse')
+else:print('no se puede jubilar')
